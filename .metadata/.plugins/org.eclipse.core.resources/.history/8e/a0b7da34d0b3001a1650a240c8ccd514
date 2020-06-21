@@ -1,0 +1,27 @@
+package com.arraylistconcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList_ForEach {
+
+	public static void main(String[] args) {
+		List<String> names = new ArrayList<String>();
+		
+		names.add("ROHIT SHARMA");
+		names.add("VIRAT KOHLI");
+		names.add("MAHENDRA SINGH DHONI");
+		names.add("SHIKHAR DHAWAN");
+		names.add("HARDIK PANDYA");
+		names.add("LOKESH RAHUL");
+		names.add("RISHABH PANT");
+		names.add("RAVINDRA JADEJA");
+		names.add("BHUVANESHWAR KUMAR");
+		names.add("JASPRIT BUMRAH");
+		names.add("YUZVENDRA CHAHAL");
+		
+		
+
+	}
+
+}

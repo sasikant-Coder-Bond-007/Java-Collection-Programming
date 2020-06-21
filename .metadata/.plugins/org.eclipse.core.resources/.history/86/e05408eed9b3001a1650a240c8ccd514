@@ -1,0 +1,12 @@
+package com.example;
+
+import java.util.Comparator;
+
+public class SortEmployeesByAge implements Comparator<Employee> {
+
+	@Override
+	public int equals(Employee e1, Employee e2) {
+		return e1.getAge().
+	}
+	
+}

@@ -1,0 +1,29 @@
+package com.example;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test_ArrayList_remove_If {
+
+	public static void main(String[] args) {
+		List<Employee> employees = new ArrayList<Employee>();
+		
+		employees.add(new Employee(1l, "Alex", 25, "Developer"));
+		employees.add(new Employee(2l, "Brian", 21, "Tester"));
+		employees.add(new Employee(3l, "Piyush", 25, "Developer"));
+		employees.add(new Employee(4l, "Charles", 35, "Manager"));
+		employees.add(new Employee(5l, "Pawan", 19, "Developer"));
+		employees.add(new Employee(6l, "Pankaj", 32, "Architect"));
+		employees.add(new Employee(7l, "Suman", 26, "Developer"));
+		employees.add(new Employee(8l, "Steve", 48, "CEO"));
+		employees.add(new Employee(9l, "Mohan", 32, "Director"));
+		employees.add(new Employee(10l, "Rama", 20, "Tester"));
+		
+		System.out.println(employees);
+		
+		employees.removeIf(e -> e.getAge() <= 22);
+		
+		System.out.println(employees);
+	}
+
+}

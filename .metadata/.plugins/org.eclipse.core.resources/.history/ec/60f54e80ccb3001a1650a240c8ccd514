@@ -1,0 +1,28 @@
+package com.arraylistconcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList_Clone_ShallowCopy {
+
+	public static void main(String[] args) {
+		
+		List<String> names = new ArrayList<String>();
+		
+		names.add("Rohit Sharma");
+		names.add("Virat Kohli");
+		names.add("Mahendra Singh Dhoni");
+		names.add("Shikhar Dhawan");
+		names.add("Hardik Pandya");
+		names.add("Lokesh Rahul");
+		names.add("Rishabh Pant");
+		names.add("Ravindra Jadeja");
+		names.add("Bhauvaneshwar Kumar");
+		names.add("Jasprit Bumrah");
+		names.add("Yuzvendra Chahal");
+		
+		
+
+	}
+
+}

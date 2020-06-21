@@ -1,0 +1,13 @@
+package com.example;
+
+import java.util.ArrayList;
+
+public class Test_ArrayList_remove_If {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> employees = new ArrayList<Employee>();
+		
+		employees.add(, "", , "");
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.arraylistconcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList_EnsureCapacity {
+
+	public static void main(String[] args) {
+		List<String> players = new ArrayList<String>();
+		
+		players.add("Rohit Sharma");
+		players.add("Virat Kohli");
+		players.add("Mahendra Sigh Dhoni");
+		players.add("Ravindra Jadeja");
+		
+		System.out.println(players);
+
+	}
+
+}

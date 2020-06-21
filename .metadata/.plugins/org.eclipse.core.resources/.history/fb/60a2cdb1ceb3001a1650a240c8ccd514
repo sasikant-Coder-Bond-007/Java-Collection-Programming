@@ -1,0 +1,10 @@
+package com.arraylistconcepts;
+
+public class ArrayList_EnsureCapacity {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
